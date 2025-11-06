@@ -38,13 +38,14 @@ and then it pulls the `Roleplay` property from whatever the next top level folde
 
 For example, my personal file tree looks like this: 
 
+```
 RP Scenes
   For The Greeks
     Twin Flames
     Bunnie & Wolf
   Prythian Prophecies
   Fourth Wing RP
-
+```
 In the case of this file tree, any scene made under 'For The Greeks' regardless of the character pair folders I have stored there will tag the roleplay as 'For The Greeks'
 
 This template can be used retroactively on anyfile and it will rescan the location and title to grab the character and roleplay of that file.

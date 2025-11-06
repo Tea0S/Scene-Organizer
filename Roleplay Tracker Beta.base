@@ -1,0 +1,26 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.inFolder("RP Scenes")
+        - and:
+            - note["Is Active?"] == true
+    order:
+      - file.name
+      - Characters
+      - Replied?
+      - Roleplay
+      - file.mtime
+      - Is Active?
+    sort:
+      - property: Replied?
+        direction: ASC
+      - property: Characters
+        direction: ASC
+      - property: file.mtime
+        direction: DESC
+      - property: file.name
+        direction: ASC
+    columnSize:
+      note.Roleplay: 267

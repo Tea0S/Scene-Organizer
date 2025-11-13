@@ -1,5 +1,7 @@
 # Scene-Organizer
 A quick and dirty set of scripts and templates to be used in Obsidian for Roleplayers.
+
+![Watch The Tutorial](https://youtu.be/r8AhW_cVHHM)
 ## Requirements
 In order for this system to work you need the following plugins: 
 - Templater
